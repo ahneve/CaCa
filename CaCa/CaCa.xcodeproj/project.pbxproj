@@ -16,6 +16,8 @@
 		8F03864929123B0B00BBBBC2 /* CaCaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F03864829123B0B00BBBBC2 /* CaCaTests.swift */; };
 		8F03865329123B0B00BBBBC2 /* CaCaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F03865229123B0B00BBBBC2 /* CaCaUITests.swift */; };
 		8F03865529123B0B00BBBBC2 /* CaCaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F03865429123B0B00BBBBC2 /* CaCaUITestsLaunchTests.swift */; };
+		8F03866429123C0A00BBBBC2 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F03866229123C0A00BBBBC2 /* HomeViewController.swift */; };
+		8F03866529123C0A00BBBBC2 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F03866329123C0A00BBBBC2 /* HomeViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		8F03864E29123B0B00BBBBC2 /* CaCaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CaCaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F03865229123B0B00BBBBC2 /* CaCaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaCaUITests.swift; sourceTree = "<group>"; };
 		8F03865429123B0B00BBBBC2 /* CaCaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaCaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8F03866229123C0A00BBBBC2 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		8F03866329123C0A00BBBBC2 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,7 @@
 		8F03863029123B0A00BBBBC2 /* CaCa */ = {
 			isa = PBXGroup;
 			children = (
+				8F03866129123BF600BBBBC2 /* Home */,
 				8F03863129123B0A00BBBBC2 /* AppDelegate.swift */,
 				8F03863329123B0A00BBBBC2 /* SceneDelegate.swift */,
 				8F03863529123B0A00BBBBC2 /* ViewController.swift */,
@@ -125,6 +130,15 @@
 				8F03865429123B0B00BBBBC2 /* CaCaUITestsLaunchTests.swift */,
 			);
 			path = CaCaUITests;
+			sourceTree = "<group>";
+		};
+		8F03866129123BF600BBBBC2 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				8F03866229123C0A00BBBBC2 /* HomeViewController.swift */,
+				8F03866329123C0A00BBBBC2 /* HomeViewController.xib */,
+			);
+			path = Home;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,6 +248,7 @@
 				8F03863E29123B0B00BBBBC2 /* LaunchScreen.storyboard in Resources */,
 				8F03863B29123B0B00BBBBC2 /* Assets.xcassets in Resources */,
 				8F03863929123B0A00BBBBC2 /* Main.storyboard in Resources */,
+				8F03866529123C0A00BBBBC2 /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +276,7 @@
 				8F03863629123B0A00BBBBC2 /* ViewController.swift in Sources */,
 				8F03863229123B0A00BBBBC2 /* AppDelegate.swift in Sources */,
 				8F03863429123B0A00BBBBC2 /* SceneDelegate.swift in Sources */,
+				8F03866429123C0A00BBBBC2 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -442,7 +458,6 @@
 				INFOPLIST_FILE = CaCa/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -470,7 +485,6 @@
 				INFOPLIST_FILE = CaCa/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
