@@ -18,6 +18,7 @@
 		8F03865529123B0B00BBBBC2 /* CaCaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F03865429123B0B00BBBBC2 /* CaCaUITestsLaunchTests.swift */; };
 		8F03866429123C0A00BBBBC2 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F03866229123C0A00BBBBC2 /* HomeViewController.swift */; };
 		8F03866529123C0A00BBBBC2 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F03866329123C0A00BBBBC2 /* HomeViewController.xib */; };
+		8F03866A2912435200BBBBC2 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F0386692912435200BBBBC2 /* UIColor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		8F03865429123B0B00BBBBC2 /* CaCaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaCaUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		8F03866229123C0A00BBBBC2 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		8F03866329123C0A00BBBBC2 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		8F0386692912435200BBBBC2 /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 		8F03863029123B0A00BBBBC2 /* CaCa */ = {
 			isa = PBXGroup;
 			children = (
+				8F0386672912433300BBBBC2 /* Configuration */,
 				8F03866129123BF600BBBBC2 /* Home */,
 				8F03863129123B0A00BBBBC2 /* AppDelegate.swift */,
 				8F03863329123B0A00BBBBC2 /* SceneDelegate.swift */,
@@ -139,6 +142,22 @@
 				8F03866329123C0A00BBBBC2 /* HomeViewController.xib */,
 			);
 			path = Home;
+			sourceTree = "<group>";
+		};
+		8F0386672912433300BBBBC2 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				8F0386682912434200BBBBC2 /* Extentions */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		8F0386682912434200BBBBC2 /* Extentions */ = {
+			isa = PBXGroup;
+			children = (
+				8F0386692912435200BBBBC2 /* UIColor.swift */,
+			);
+			path = Extentions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -277,6 +296,7 @@
 				8F03863229123B0A00BBBBC2 /* AppDelegate.swift in Sources */,
 				8F03863429123B0A00BBBBC2 /* SceneDelegate.swift in Sources */,
 				8F03866429123C0A00BBBBC2 /* HomeViewController.swift in Sources */,
+				8F03866A2912435200BBBBC2 /* UIColor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
